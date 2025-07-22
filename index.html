@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Protect your home with professional pest control solutions. We offer fast, affordable, and eco-friendly pest management.">
+    <meta name="keywords" content="Pest Control, Termite Treatment, Extermination, Lawn Care, Central Florida">
+    <title>PestGuard Solutions | Safe & Effective Pest Control</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">PestGuard</div>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Defend Your Home from Pests</h1>
+        <p>Reliable. Affordable. Guaranteed Results.</p>
+        <a href="#contact" class="cta-button quote-float">Get a Free Quote</a>
+    </section>
+    <section id="services" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>General Pest Control</h3>
+                <p>Effective solutions for ants, roaches, spiders, and more.</p>
+                <img src="images/pest.jpg" alt="Pest Control Service" class="service-image" />
+            </div>
+            <div class="service-card">
+                <h3>Termite Treatments</h3>
+                <p>Keep pests away from your home with exterior treatments.</p>
+                <img src="images/termite.png" alt="Termite Treatment" class="service-image" />
+            </div>
+            <div class="service-card">
+                <h3>Lawn Care</h3>
+                <p>Keep your lawn lush, green, and weed-free year-round with our expert fertilization and pest treatment plans.</p>
+                <img src="images/lawn.jpg" alt="Lawn Care Service" class="service-image" />
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" data-aos="zoom-in">
+        <h2>What Customers Say</h2>
+        <div class="carousel">
+            <div class="testimonial active">
+                <p>“PestGuard completely eliminated our termite issue in just one treatment!”</p>
+                <cite>– Lisa D., Winter Park</cite>
+            </div>
+            <div class="testimonial">
+                <p>“Professional and on-time. The lawn treatment worked wonders!”</p>
+                <cite>– John H., Kissimmee</cite>
+            </div>
+            <div class="testimonial">
+                <p>“Affordable and effective. I’ll be using PestGuard every year.”</p>
+                <cite>– Alex T., Orlando</cite>
+            </div>
+            <button id="prev">←</button>
+            <button id="next">→</button>
+        </div>
+    </section>
+    <section id="contact" data-aos="fade-up">
+        <h2>Request a Quote</h2>
+        <form name="quote" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="quote" />
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <textarea name="message" id="message" placeholder="How can we help?" required></textarea>
+            <button type="submit">Send Request</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2025 PestGuard Solutions. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
