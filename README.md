@@ -31,7 +31,7 @@ Designed with a mobile-first approach, SEO-friendly structure, and interactive U
 ## 🖼️ Screenshots
 
 ### Desktop View
-![PestGuard Desktop](assets/images/pestguard-desktop.png)
+![PestGuard Desktop](images/pestguard-desktop-image.png)
 
 ### Mobile View
 ![PestGuard Mobile](assets/images/pestguard-mobile.png)
