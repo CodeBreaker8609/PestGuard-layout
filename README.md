@@ -1,77 +1,76 @@
-# PestGuard-layout - WORK IN PROGRESS!
-📋 Responsive Pest Control Website | SEO-focused, mobile-first design with interactive carousel, contact form, and service showcase.
+# PestGuard – Pest Control Website
 
-# Pest Control Website
+🔗 **Live Demo:** (Add your deployed link here)
 
-A clean, responsive, and SEO-friendly website for a pest control company, built with semantic HTML5, modern CSS, and vanilla JavaScript.  
-Features include a mobile-first design, interactive testimonial carousel, a contact form integrated for Netlify submissions, and a visually engaging service section with images.
-
----
-
-## Features
-
-- **Mobile-first & Responsive** layout optimized for all devices  
-- **SEO-focused** semantic HTML structure and meta tags  
-- Interactive **testimonial carousel** with smooth transitions and navigation controls  
-- Contact form with **Netlify form submission** support (no backend required)  
-- Service cards featuring images and hover effects  
-- Sticky, animated **navbar** with hamburger menu on mobile  
-- Clean and accessible UI using color contrast and keyboard-friendly controls  
+Responsive pest control business website built with semantic HTML, modern CSS, and vanilla JavaScript.  
+Designed with a mobile-first approach, SEO-friendly structure, and interactive UI elements to simulate a real-world service website.
 
 ---
 
-## Installation & Usage
+## ✨ Features
 
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/Codebreaker8609/pest-control-website.git
-Open index.html in your browser to preview locally.
-
-Customize content, images, and styles as needed.
-
-To deploy the contact form on Netlify:
-
-Push your repo to a Git provider (GitHub, GitLab, Bitbucket)
-
-Connect your repo to Netlify and enable form handling
-
-No server code needed!
-
-File Structure
-bash
-Copy
-Edit
-├── index.html           # Main HTML file
-├── styles.css           # CSS stylesheet
-├── script.js            # JavaScript for interactivity
-├── images/              # Folder containing all images used
-└── README.md            # Project documentation
-Technologies Used
-HTML5
-
-CSS3 (Flexbox, Grid, Transitions)
-
-JavaScript (DOM manipulation, event listeners)
-
-Netlify Forms (for contact submissions)
-
-Contributing
-Contributions, issues, and feature requests are welcome! Feel free to open a pull request or submit an issue.
-
-License
-This project is open source and available under the MIT License.
-
-Contact
-Created by Your Name – your-email@example.com
-Project Link: https://github.com/yourusername/pest-control-website
-
-yaml
-Copy
-Edit
+- Mobile-first, fully responsive layout  
+- SEO-focused semantic HTML structure and meta tags  
+- Interactive testimonial carousel with smooth transitions  
+- Contact form integrated with Netlify Forms (no backend required)  
+- Service cards with images and hover effects  
+- Sticky navigation with animated hamburger menu on mobile  
+- Accessible UI with keyboard-friendly controls and color contrast  
 
 ---
 
-If you want, I can help you generate a ready-to-use **LICENSE file** or add badges for build status, Netlify deployment, etc. Just ask!
+## 🛠️ Tech Stack
+
+- **HTML5** (semantic markup)  
+- **CSS3** (Flexbox, Grid, transitions)  
+- **JavaScript** (DOM manipulation & event listeners)  
+- **Netlify Forms** (contact form handling)
+
+---
+
+## 🖼️ Screenshots
+
+### Desktop View
+![PestGuard Desktop](assets/images/pestguard-desktop.png)
+
+### Mobile View
+![PestGuard Mobile](assets/images/pestguard-mobile.png)
+
+---
+
+## 🚀 Local Preview
+
+To run locally:
+
+```bash
+git clone https://github.com/CodeBreaker8609/PestGuard-layout.git
+Open index.html in your browser.
+
+♿ Accessibility
+Semantic landmarks (header, nav, main, section, footer)
+
+Keyboard-accessible navigation and controls
+
+Readable contrast and clear visual hierarchy
+
+📚 What I Learned
+Building responsive layouts using CSS Grid and Flexbox
+
+Creating interactive UI components with vanilla JavaScript
+
+Structuring SEO-friendly, semantic HTML for business websites
+
+Implementing form handling on static sites with Netlify
+
+🚧 Future Improvements
+Optimize images with lazy loading and WebP formats
+
+Improve carousel accessibility with ARIA roles
+
+Add subtle scroll-based animations for enhanced UX
+
+📄 License
+MIT License
 
 
 
