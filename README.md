@@ -1,6 +1,6 @@
 # PestGuard – Pest Control Website
 
-🔗 **Live Demo:** (Add your deployed link here)
+🔗 **Live Demo:** (https://codebreaker8609.github.io/PestGuard-layout/)
 
 Responsive pest control business website built with semantic HTML, modern CSS, and vanilla JavaScript.  
 Designed with a mobile-first approach, SEO-friendly structure, and interactive UI elements to simulate a real-world service website.
